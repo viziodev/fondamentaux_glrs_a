@@ -1,0 +1,51 @@
+/**
+         * Classes=> Attributs + methodes
+         * Convention Ecriture d'une Classe => PascalCase
+         * MaPremiereClasseJava
+         * JDK
+         *  Chaines => String  => java.lang
+         *  Environnement=>System
+         *    System.in => Clavier
+         *    System.out=>Ecran
+         *  Classe de Saisie =>Scanner
+         *     Methodes  => CamelCase  
+         *      nextInt():Lire un entier
+         *      nextDouble()
+         *      nextFloat()
+         *      nextBoolean()
+         *      nextLine(): Lire une chaine de plusieurs mots
+         *      next(): Lire une chaine d'un mot
+         * Creer Par Programmeurs => UML
+            * Description de Donnees  => entites(DC)
+            * Services  => servives ou metiers(DUC)
+            * Vues => Affichage et Saisie
+            * Repository  => models => Classes de Persistences ou Accees 
+            *                aux donnees
+          Etapes pour Manipuler une Classe
+             1. Declaration un objet de la Classe
+             2. Instanciation ou creation de l'objet
+             3. Donner un etat a l'etat  
+         */
+
+      /*
+         * Types Primitifs => Types Valeurs
+         * int,long, short, char , boolean,void
+         *  Reels=> float, double(defaut)
+         */
+         // int x=2;
+         // double y=12.5;
+         // float z=12.5f;
+          //Constantes 
+          final double PI=3.14;
+
+          //Tableaux  => Classe
+        /*
+         * type[]  => Tableau
+         * 1-Declation
+         * int[] t;  double[] f;
+         * String[] ch;
+         * 2-Instanciation
+         *  type[] tab=new  type[N] ;
+         *  int[] t=new int[10];
+         *  String[] ch=new String[5];
+         */
